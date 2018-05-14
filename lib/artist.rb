@@ -46,13 +46,13 @@ class Author
   end
 
   def add_post_by_title(title)
-    
+
   end
 
 end
 
 class Post
-  attr_accessor :author
+  attr_accessor :title, :author
   def initialize (title)
     @title = title
   end
