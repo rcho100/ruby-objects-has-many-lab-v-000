@@ -50,7 +50,7 @@ class Author
 
   def add_post(post)
     @posts << post
-    @@post_count += @posts
+    @@post_count += @posts.size
     post.author = self
   end
 
