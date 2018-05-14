@@ -32,3 +32,7 @@ class Song
     @name = name
   end
 end
+
+class Author
+
+end
