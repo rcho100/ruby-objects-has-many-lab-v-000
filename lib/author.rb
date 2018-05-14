@@ -3,6 +3,7 @@ class Author
 
   @@post_count = 0
   def self.post_count
+    binding.pry
     @@post_count
   end
 
