@@ -59,6 +59,7 @@ class Author
     @@post_count += @posts.size
     @posts << post
     post.author = self
+    post
   end
 
 end
