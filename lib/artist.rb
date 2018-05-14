@@ -33,6 +33,7 @@ class Song
   end
 end
 
+
 class Author
   attr_accessor :name, :posts
   def initialize(name)
@@ -48,7 +49,7 @@ class Author
   def add_post_by_title(title)
     post = Post.new(title)
     @posts << post
-    post.
+    post.author = self 
   end
 
 end
