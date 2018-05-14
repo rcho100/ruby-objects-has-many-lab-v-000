@@ -3,7 +3,7 @@ class Artist
 
   @@song_count = []
   def self.song_count
-    @@song_count.count
+    @@song_count.size
   end
 
   def initialize(name)
