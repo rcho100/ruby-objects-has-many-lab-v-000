@@ -12,12 +12,4 @@ class Post
       self.author.name
     end
   end
-
-  # def author= author
-  #   @author = author
-  # end
-  #
-  # def author
-  #   @author
-  # end
 end
