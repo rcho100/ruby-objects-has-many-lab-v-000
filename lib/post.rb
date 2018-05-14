@@ -9,7 +9,7 @@ class Post
     self.author.name
   end
 
-  def author= (author)
+  def author= author
     @author = author
   end
 
