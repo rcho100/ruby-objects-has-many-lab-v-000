@@ -45,3 +45,9 @@ class Author
     post.author = self
   end
 end
+
+class Post
+  def initialize (title)
+
+  end 
+end
